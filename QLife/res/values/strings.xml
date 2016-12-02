@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QLife</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pressure_introduce">
+             压力传感器：\n\t\t压力传感器控制画笔的粗细，让画笔的粗细跟随手指对屏幕的压力大小的变化而变化，使绘画变得更加便捷！
+    </string>
+    <string name="orientation_introduce">
+             方向传感器：\n\t\t方向传感器控制画板颜色的细微变化，让你无时无刻都可以享受颜色变化带来的视觉享受，让你更方便地找到更合适的颜色！
+    </string>
+    <string name="voice_introduce">
+              语音输入法：\n\t\t语音输入法控制2D图形的绘制，脱口而出的图形名称，即在画板上绘制一个对应的图形，让绘图变得更方便、更人性化！
+    </string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a3137"
+    android:orientation="vertical" >
+    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="16dp"
+	    android:padding="3dp"
+	    android:textColor="#FFFFFF"
+	    android:text="画笔大小"/>
+    
+    <LinearLayout
+	    android:id="@+id/pressure_linear"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="#3a4249"
+	    android:layout_marginBottom="1dp"
+	    android:padding="8dp">
+	    <SeekBar
+     	android:id="@+id/seek_brush_size"
+  	 	android:layout_height="wrap_content"
+  	 	android:layout_width="wrap_content"
+  	 	android:layout_weight="8"
+  	 	android:progressDrawable="@drawable/seekbar_style"
+  	 	android:max="255"/>
+        
+	    </LinearLayout>
+	
+    
+</LinearLayout>

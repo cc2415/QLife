@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="true"
+    >
+    <Preference
+        android:key="a"
+        android:title="颜色选择"/>
+    <Preference
+        android:key="b"
+        android:title="传感器"/>
+    <Preference
+        android:key="c"
+        android:title="分享"/>
+    <Preference
+        android:key="d"
+        android:title="保存文件"/>
+    <Preference
+        android:key="e"
+        android:title="2D图形绘制"/>
+    <Preference
+        android:key="f"
+        android:title="画笔样式"/>
+    <Preference
+        android:key="g"
+        android:title="打印字体"/>
+    <Preference
+        android:key="h"
+        android:title="导入图片"/>
+    <Preference
+        android:key="i"
+        android:title="设置"/>
+    <Preference
+        android:key="j"
+        android:title="退出"/>
+
+
+</PreferenceScreen>

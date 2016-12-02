@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#2a3137">
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="3dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="设    置"
+        />
+    <LinearLayout  
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="1dp"
+        android:padding="8dp"
+        android:background="#3a4249"
+        >
+	<TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="90dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="隐 藏 标 题 栏"
+        />
+	<ToggleButton 
+	        android:id="@+id/hide_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#FFFFFF"
+	        android:textOn="打开"
+	        android:textOff="关闭"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:id="@+id/restore_background"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="1dp"
+        android:padding="8dp"
+        android:background="#3a4249"
+        >
+		<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="1dp"
+        android:text="还 原 背 景 图"
+        />
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:id="@+id/help"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="1dp"
+        android:padding="8dp"
+        android:background="#3a4249"
+        >
+		<TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#3a4249"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="1dp"
+        android:text="帮     助"
+        />
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:id="@+id/copyright"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="1dp"
+        android:padding="8dp"
+        android:background="#3a4249"
+        >
+		<TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#3a4249"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:layout_marginBottom="1dp"
+        android:text="版权所有"
+        />
+	</LinearLayout>
+</LinearLayout>
